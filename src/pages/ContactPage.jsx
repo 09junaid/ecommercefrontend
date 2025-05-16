@@ -78,7 +78,7 @@ export default function ContactPage() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/v1/contact/user-contact",
+        "https://hypehive.vercel.app/api/v1/contact/user-contact",
         formData
       );
       setFormData({
