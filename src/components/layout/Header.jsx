@@ -176,7 +176,7 @@ export default function Header() {
                             <button
                               onClick={() => {
                                 setIsCartOpen(false);
-                                navigate("/products");
+                                navigate("/");
                               }}
                               className="px-6 py-2 bg-amber-500 text-white rounded-md hover:bg-amber-600 transition-colors"
                             >
